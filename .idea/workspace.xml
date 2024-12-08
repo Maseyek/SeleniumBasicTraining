@@ -4,17 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="242b5bfb-67e7-4e94-ab25-33eb597fe6d9" name="Changes" comment="">
+    <list default="true" id="242b5bfb-67e7-4e94-ab25-33eb597fe6d9" name="Changes" comment="Initial commit">
+      <change afterPath="$PROJECT_DIR$/src/test/java/base/BaseTestWebTable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/helpers/ElementAction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pagesv2/FormPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pagesv2/HomePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pagesv2/ResultPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/scenarios/FillFormAdvPOMElementActionTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/scenarios/WebTableAdvTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/scenarios/WebTableSimpleTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/logback.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/logback.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/base/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/base/BasePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/base/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/base/BaseTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pages/FormPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/FormPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pages/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/HomePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pages/ResultPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/ResultPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/scenarios/FillFormAdvPOMTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/scenarios/FillFormAdvPOMTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/scenarios/FillFormTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/scenarios/FillFormTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,21 +30,21 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "Maseyek"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Maseyek&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/Maseyek/SeleniumBasicTraining.git",
-    "accountId": "088e0a04-26da-4850-8504-fa9e7883017e"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Maseyek/SeleniumBasicTraining.git&quot;,
+    &quot;accountId&quot;: &quot;088e0a04-26da-4850-8504-fa9e7883017e&quot;
   }
-}]]></component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 2
-}]]></component>
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
   <component name="ProjectId" id="2psxzkOQNSVrJzPQH5UY3pZ3Z7e" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -56,20 +55,33 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "JUnit.FillFormAdvPOMElementActionTest.executor": "Run",
     "JUnit.FillFormAdvPOMTest.executor": "Run",
     "JUnit.FillFormTest.executor": "Run",
     "JUnit.FillFormTest.fillForm.executor": "Run",
+    "JUnit.WebTableAdvTest.checkWebTable.executor": "Run",
+    "JUnit.WebTableAdvTest.checkWebTable2.executor": "Run",
+    "JUnit.WebTableAdvTest.checkWebTable3.executor": "Run",
+    "JUnit.WebTableAdvTest.clickCheckbox.executor": "Run",
+    "JUnit.WebTableSimpleTest.executor": "Run",
+    "JUnit.WebTableSimpleTest.webTableVerification.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/jkrol1/IdeaProjects/SeleniumBasicTraining/src/test/java/pagesv2",
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.2"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.FillFormAdvPOMTest">
-    <configuration name="FillFormAdvPOMTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\jkrol1\IdeaProjects\SeleniumBasicTraining\src\test\java\pagesv2" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.WebTableAdvTest.checkWebTable3">
+    <configuration name="WebTableAdvTest.checkWebTable" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="SeleniumBasicTraining" />
       <extension name="coverage">
         <pattern>
@@ -78,13 +90,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="scenarios" />
-      <option name="MAIN_CLASS_NAME" value="scenarios.FillFormAdvPOMTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="MAIN_CLASS_NAME" value="scenarios.WebTableAdvTest" />
+      <option name="METHOD_NAME" value="checkWebTable" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FillFormTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="WebTableAdvTest.checkWebTable2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="SeleniumBasicTraining" />
       <extension name="coverage">
         <pattern>
@@ -93,13 +106,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="scenarios" />
-      <option name="MAIN_CLASS_NAME" value="scenarios.FillFormTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="MAIN_CLASS_NAME" value="scenarios.WebTableAdvTest" />
+      <option name="METHOD_NAME" value="checkWebTable2" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FillFormTest.fillForm" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="WebTableAdvTest.checkWebTable3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="SeleniumBasicTraining" />
       <extension name="coverage">
         <pattern>
@@ -108,8 +122,40 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="scenarios" />
-      <option name="MAIN_CLASS_NAME" value="scenarios.FillFormTest" />
-      <option name="METHOD_NAME" value="fillForm" />
+      <option name="MAIN_CLASS_NAME" value="scenarios.WebTableAdvTest" />
+      <option name="METHOD_NAME" value="checkWebTable3" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WebTableAdvTest.clickCheckbox" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SeleniumBasicTraining" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="scenarios.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="scenarios" />
+      <option name="MAIN_CLASS_NAME" value="scenarios.WebTableAdvTest" />
+      <option name="METHOD_NAME" value="clickCheckbox" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WebTableSimpleTest.webTableVerification" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SeleniumBasicTraining" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="scenarios.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="scenarios" />
+      <option name="MAIN_CLASS_NAME" value="scenarios.WebTableSimpleTest" />
+      <option name="METHOD_NAME" value="webTableVerification" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -117,9 +163,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.FillFormAdvPOMTest" />
-        <item itemvalue="JUnit.FillFormTest.fillForm" />
-        <item itemvalue="JUnit.FillFormTest" />
+        <item itemvalue="JUnit.WebTableAdvTest.checkWebTable3" />
+        <item itemvalue="JUnit.WebTableSimpleTest.webTableVerification" />
+        <item itemvalue="JUnit.WebTableAdvTest.clickCheckbox" />
+        <item itemvalue="JUnit.WebTableAdvTest.checkWebTable2" />
+        <item itemvalue="JUnit.WebTableAdvTest.checkWebTable" />
       </list>
     </recent_temporary>
   </component>
@@ -132,6 +180,15 @@
       <option name="presentableId" value="Default" />
       <updated>1733568851549</updated>
     </task>
+    <task id="LOCAL-00001" summary="Initial commit">
+      <option name="closed" value="true" />
+      <created>1733645163073</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1733645163073</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -144,5 +201,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Initial commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Initial commit" />
   </component>
 </project>
